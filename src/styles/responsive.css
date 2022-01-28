@@ -6,6 +6,10 @@
 
 /* Tablet Screen */
 @media screen and (min-width: 581px) {
+    .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/heros/hero-image_2-large.jpg");
+    }
+
     .nav-menu {
         display: none;
     }
@@ -37,6 +41,10 @@
 
 /* Desktop Screen */
 @media screen and (min-width: 1024px) {
+    .hero{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/heros/hero-image_2-large.jpg");
+    }
+
     .nav-menu {
         display: none;
     }
@@ -77,6 +85,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .hero{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/heros/hero-image_2.jpg");
+    }
+
     .nav-menu {
         display: none;
     }

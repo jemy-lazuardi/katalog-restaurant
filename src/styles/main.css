@@ -103,7 +103,7 @@ navigation-bar{
     width: 100%;
     text-align: center;
     background: rgba(0, 0, 0, 0.3);
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../public/images/heros/hero-image_2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/heros/hero-image_2-small.jpg");
     background-position: center;
     background-color: green;
     background-size: cover;

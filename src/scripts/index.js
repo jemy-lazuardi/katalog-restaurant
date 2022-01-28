@@ -1,5 +1,8 @@
 import 'regenerator-runtime'; /* for async await transpile */
 
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
+
 import './components/NavigationBar';
 
 import '../styles/main.css';

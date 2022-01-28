@@ -18,7 +18,7 @@ const createRestaurantDetailTemplate = (restaurant) => `
 const createRestaurantItemTemplate = (restaurant) => `
     <article class="restaurant-item">
         <div class="restaurant-item-image">
-          <img class="restaurant-item-thumbnail" src="${restaurant.pictureId ? `${CONFIG.BASE_IMAGE_URL}medium/${restaurant.pictureId}` : 'https://alppetro.co.id/dist/assets/images/default.jpg'}" alt="${restaurant.name}">
+          <img class="restaurant-item-thumbnail lazyload" data-src="${restaurant.pictureId ? `${CONFIG.BASE_IMAGE_URL}medium/${restaurant.pictureId}` : 'https://alppetro.co.id/dist/assets/images/default.jpg'}" alt="${restaurant.name}">
           <label class="restaurant-item-city">${restaurant.city}</label>
         </div>
         <div class="restaurant-item-content">
